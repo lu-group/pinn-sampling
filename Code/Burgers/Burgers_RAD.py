@@ -1,6 +1,6 @@
 import deepxde as dde
 import numpy as np
-import tensorflow as tf
+from deepxde.backend import tf
 
 dde.config.set_default_float("float64")
 dde.optimizers.config.set_LBFGS_options(maxiter=1000)
