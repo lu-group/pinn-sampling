@@ -53,7 +53,7 @@ def main():
         X = geomtime.random_points(100000)
         Y = np.abs(model.predict(X, operator=pde))[:, 0]
         err_eq = torch.tensor(Y)
-        X_ids = torch.topk(err_eq, NumDomain//100, dim=0)[1].numpy()
+        X_ids = torch.topk(err_eq, NumDomain//200, dim=0)[1].numpy()
         data.add_anchors(X[X_ids])
 
         model.compile("adam", lr=0.001)
