@@ -1,6 +1,6 @@
 import deepxde as dde
 import numpy as np
-import tensorflow as tf
+from deepxde.backend import tf
 import torch
 
 dde.config.set_default_float("float64")
