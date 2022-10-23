@@ -64,7 +64,7 @@ def main(k, c):
         Y = np.abs(model.predict(X, operator=pde)).astype(np.float64)
         err_eq = np.power(Y, k) / np.power(Y, k).mean() + c
         err_eq_normalized = (err_eq / sum(err_eq))[:, 0]
-        X_ids = np.random.choice(a=len(X), size=NumDomain//100, replace=False, p=err_eq_normalized)
+        X_ids = np.random.choice(a=len(X), size=NumDomain//200, replace=False, p=err_eq_normalized)
         data.add_anchors(X[X_ids])
 
         model.compile("adam", lr=0.001)
