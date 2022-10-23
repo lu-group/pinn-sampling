@@ -68,7 +68,7 @@ def main():
 
     error = np.array(error)
     dde.saveplot(losshistory, train_state, issave=True, isplot=True)
-    np.savetxt(f'error_RAR-D.txt', error)
+    np.savetxt(f'error_RAR-G.txt', error)
     return error
 
 
