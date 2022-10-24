@@ -1,5 +1,5 @@
 deepxde
-tensorflow
-torch
 numpy
 scipy
+tensorflow
+torch
