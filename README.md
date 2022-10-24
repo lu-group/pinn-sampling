@@ -4,3 +4,4 @@ The data and code for the paper [C. Wu, M. Zhu, Q. Tan, Y. Kartha, & L. Lu. A co
 
 ## Code
 
+-[Diffusion equation](src/diffusion)
