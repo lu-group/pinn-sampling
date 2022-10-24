@@ -4,9 +4,9 @@ The data and code for the paper [C. Wu, M. Zhu, Q. Tan, Y. Kartha, & L. Lu. A co
 
 ## Code
 
--[Diffusion equation](src/diffusion)
--[Burgers’ equation](src/burgers)
--[Allen–Cahn equation](src/allen_cahn)
--[Wave equation](src/wave)
--[Diffusion–reaction equation (inverse problem)](src/diffusion_reaction_inverse)
--[Korteweg–de Vries equation (inverse problem)](src/korteweg_de_vries_inverse)
+- [Diffusion equation](src/diffusion)
+- [Burgers’ equation](src/burgers)
+- [Allen–Cahn equation](src/allen_cahn)
+- [Wave equation](src/wave)
+- [Diffusion–reaction equation (inverse problem)](src/diffusion_reaction_inverse)
+- [Korteweg–de Vries equation (inverse problem)](src/korteweg_de_vries_inverse)
